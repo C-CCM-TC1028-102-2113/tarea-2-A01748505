@@ -3,7 +3,7 @@ def main():
     peso = float(input("Peso en kg: "))
     altura = float(input("Altura en m: "))
     if peso>0 and altura>0: 
-    indice=peso/(altura**2)
+       indice=peso/(altura**2)
     if indice<20: 
        print ("PESO BAJO")
     elif 20<=indice<25:
