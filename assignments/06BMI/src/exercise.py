@@ -2,6 +2,7 @@ def main():
     #escribe tu código abajo de esta línea
     peso = float(input("Peso en kg: "))
     altura = float(input("Altura en m: "))
+    indice=""
     if peso>0 and altura>0: 
        indice=peso/(altura**2)
     if indice<20: 
